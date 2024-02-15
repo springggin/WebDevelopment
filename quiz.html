@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="quiz.css">
+    <title>Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body  style=" background-image: url('img_index/bg.jpeg'); color: black; font-family: Arial, sans-serif;">
+
+<div style="padding-top: 30px; padding-bottom: 50px;">
+    <h2>Choose what goes the best with your aesthetic</h2>
+
+<form>
+    <p>Which type do you prefer?</p>
+    
+    <input type="radio" name="type" value="chunky" style="width: auto;">
+    <label for="chunky"> Chunky</label>
+    <br>
+    <input type="radio" name="type" value="light" style="width: auto;">
+    <label for="light">Light</label>
+    <br>
+
+    <p>Which coloured jewlery do you prefer?</p>
+    
+    <input type="radio" name="color" value="silver" style="width: auto;">
+    <label for="silver">Silver</label>
+    <br>
+    <input type="radio" name="color" value="gold" style="width: auto;">
+    <label for="gold">Gold</label>
+
+    <p>When choosing jewlery, what attracts you the most?</p>
+    
+    <input type="radio" name="style" value="basic" style="width: auto;">
+    <label for="basic">Basic Style</label>
+    <br>
+    <input type="radio" name="style" value="statement" style="width: auto;">
+    <label for="statement">Statement Pieces</label>
+    <br>
+
+     <button class="button1" type="submit" onclick="results_show()"> Submit </button>
+        
+</form>
+
+<div class="results"></div>
+</div>
+<script type="text/javascript" src="quiz.js"></script>
+</body>
+</html>
